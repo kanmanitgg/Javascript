@@ -47,6 +47,38 @@
 
       }*/
 
+/*      var userName="rimmer";
+      switch(userName)
+      {
+        case "lister":
+          document.write("dsaasasfa");
+          break;
+        case "rimmer":
+          document.write("aaaaaaaaaa");
+          break;
+        default:
+          document.write("xxxxxxxxxxxxx");
+          break;
+
+      } */
+      var rightNow = new Date();
+      var currentHour= rightNow.getHours();
+      switch(true)
+      {
+        case(currentHour >8 && currentHour < 12):
+        document.write("hiiii");
+        break;
+        case(currentHour === 12):
+        document.write("hey");
+        break;
+        case(currentHour > 12 && currentHour < 18):
+        document.write("hii hey");
+        break;
+        default:
+        document.write("wowwwww");
+        break;
+      }
+
 
       </script>
   </head>

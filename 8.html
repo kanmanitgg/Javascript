@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+      <title>global vs function</title>
+      <script type="text/javascript">
+/*      if(true)
+      {
+        var x=5;
+      }
+     alert(x);
+*/
+
+  //   myScope="global";
+/*      (function()
+      {
+        if(true)
+        {
+          var myScope="function";
+        }
+        //var myScope="function";
+        //myScope="inside the func";
+          alert('inside:' +myScope);
+      })();
+    //    alert('outside:'+myScope);
+*/
+      myScope="global";
+      alert('window.myScope:'+window.myScope);
+      </script>
+  </head>
+  <body>
+      <h1>global vs function</h1>
+  </body>
+</html>
